@@ -1,0 +1,11 @@
+ Solidity test
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract SimpleIntegerStorage {
+    uint256 public storedInteger;
+
+    function setInteger(uint256 newValue) public {
+        storedInteger = newValue;
+    }
+}
